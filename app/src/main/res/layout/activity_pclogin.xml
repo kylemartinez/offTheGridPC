@@ -16,35 +16,16 @@ tools:context=".PCLogin" >
     android:orientation="vertical"
     android:paddingTop="55dip" >
 
-    <EditText
-        android:id="@+id/username"
+    <TextView
+        android:id="@+id/longitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:hint="Username"
-        android:inputType="text"
-        android:width="200dp" />
-
-    <EditText
-        android:id="@+id/password"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/latitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:width="200dp" />
-
-    <Button
-        android:id="@+id/login_button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@drawable/green_button_selector"
-        android:text="Login"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold" />
-
-
+        android:layout_margin="10dp"/>
 
 
 </LinearLayout>
